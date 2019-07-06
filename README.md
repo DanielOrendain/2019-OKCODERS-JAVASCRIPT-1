@@ -1,3 +1,6 @@
-JavaScript 1
+# JavaScript 1
+
 Description: Learning how to use js.
-Email:orendaind24@gmail.com
+##About Author
+
+**Email:orendaind24@gmail.com**
