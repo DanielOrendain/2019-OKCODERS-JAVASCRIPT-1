@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>OKcoders Javascript</title>
-
+</head>
 
 <body>
     <script>
-        var number = prompt("pick min number?")
-        var number2 = prompt("pick max numbet?")
-
-        //while(number < 100)
-        
-        for(var i = number2; i>number; i--) {
-            document.write("Number " + i + "<br>");
-            //number++;
+        var rows = prompt("how many row?")
+        var cols = prompt("how many columns?")
+        function makeRow() {
+        for (var i = 1; i <= cols; i++)
+            document.write("X")
         }
+        function findNumberOfCells() {
+            return cols * rows;
+
+            if( total > 100){
+                alert(" Too many ... ");
+                return " A Billizions";
+            }
+            return totals;
+    
+        }
+        for(var i = 1; i< rows; i++){
+            makeRow();
+            document.write("<br>")
+        }
+        var totalCells = findNumberOfCells();
+        document.write("with " + rows + " Rows and " + cols);
+        document.write(" there are " + totalCells );
+        document.write("total.")
+
     </script>
 </body>
-</head>
 
 </html>
