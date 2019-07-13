@@ -2,27 +2,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, inital 1">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>OKcoders Javascript</title>
-</head>
+
 
 <body>
     <script>
-        var name = prompt("Users name?")
-        var age = prompt("Users age?")
+        var number = prompt("pick min number?")
+        var number2 = prompt("pick max numbet?")
+
+        //while(number < 100)
         
-        if(age > 55){
-            document.write(name + " is old");
-        } else if (age < 25){
-            document.write(name + " is young")
-        } else {
-            document.write(name + " is just right")
+        for(var i = number2; i>number; i--) {
+            document.write("Number " + i + "<br>");
+            //number++;
         }
-        
-
-
     </script>
 </body>
+</head>
 
 </html>
